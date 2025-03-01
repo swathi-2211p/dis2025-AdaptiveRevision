@@ -33,7 +33,7 @@ const GridExample = ({ currentTime }) => {
 
 
     useEffect(() => {
-        fetch("dis2025-AdaptiveRevision/Transcript.json")
+        fetch("/dis2025-AdaptiveRevision/Transcript.json")
           .then((response) => {
             if (!response.ok) {
               throw new Error("Network response was not ok");
